@@ -1,0 +1,24 @@
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.editor,
+.preview {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+textarea {
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  resize: none;
+}
+
+.preview div {
+  overflow-wrap: break-word;
+}
